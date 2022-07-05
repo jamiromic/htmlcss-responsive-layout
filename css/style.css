@@ -104,12 +104,316 @@ header{
     font-size: 3.5rem;
 }
 
+.body-section{
+    background-color: rgb(187, 145, 224);
+    padding: 0;
+}
+
+.body-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.body-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.bodytitle{
+    color: white;
+    font-size: 2.4rem;
+    padding: 2rem 2rem 2rem 1rem;
+}
+
+.imgbody{
+    padding: 1rem;
+}
+
+.bodypar{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    padding: 2rem 2rem 2rem 1rem;
+}
+
+.back{
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.text-image{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    gap: 1.2rem;
+
+}
+
+.italic{
+    font-style: italic;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.fa-arrow-down{
+    padding: 0.8rem;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.col-inhead{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.6rem;
+}
+
+.colint{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 10%;
+    padding: 2rem;
+}
+
+.interhead{
+    font-size: 1.2rem;
+}
+
+.interbody{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+
+}
+
+.intertitle{
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+
+.intertext{
+    font-size: 1.2rem;
+
+}
+
+
+.imgcircle{
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.benefits{
+    background-color: blueviolet;
+}
+
+.row-benefits{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-benefitstitle{
+    text-align: center;
+    padding: 1.6rem;
+}
+
+.col-benefits{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.title-benefits{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.card-benefits{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    margin: 1.5rem;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+.number-benefits {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+.quality-benefits{
+    color: blueviolet;
+}
+
+.button-benefits{
+    max-width: 50%;
+    color: white;
+    background-color: blueviolet;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.row-about-us{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+.col-about-us{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title-about-us{
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+.text-about-us{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 1rem;
+
+}
+
+.par-about-us, .par-about-us1{
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.img-about-us{
+    position: relative;
+}
+
+
+.fa-quote-left{
+    color: blueviolet;
+    font-size: 3rem;
+    position: absolute;
+    right: 2.5rem;
+}
+
+.cit-about-us{
+    color: blueviolet;
+    font-size: 1.8rem;
+    padding: 2rem 1rem;
+    gap: 1rem;
+
+}
+
+.photo-about-us{
+    max-width: 70%;
+}
+
+
+
+.button-about-us{
+
+    color: white;
+    background-color: blueviolet;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.get-started{
+    background-color: blueviolet;
+    color: white;
+    margin-top: 4rem;
+}
+
+.get-started-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.getstarted{
+    font-size: 1rem;
+    color: grey;
+    margin: 4rem 0;
+}
+
+.getstartedfree{
+    color: orange;
+    font-size: 3.5rem;
+}
+
+
+.getstartedtext{
+    line-height: 1.4rem;
+}
+
+.getstartedbutton{
+
+    color: blueviolet;
+    background-color: white;
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+
+
 
 /*Media-Query*/
 
 /*Tablet*/
 
 @media (min-width: 810px) {
+
+.row{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.get-app{
+
+flex-grow: 2;
+    
+}
 
 
 }
