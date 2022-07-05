@@ -1,0 +1,134 @@
+/*Regole di Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+img {
+    max-width: 100%;
+
+}
+
+ul,
+ol,
+menu {
+
+    font-style: none;
+
+}
+
+.navlist{
+    display: none;
+}
+
+header{
+    background-color: blue;
+}
+
+.container{
+    display: flex;
+    max-width: 809px;
+    padding: 1rem 1.4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menunav{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.containerbig{
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    padding: 1.8rem;
+    background-color: #a0dffb;
+    border-radius: 1rem;
+}
+
+.get-app{
+    padding-bottom: 0;
+    
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    font-size: 1rem;
+}
+
+.title {
+    text-align: center;
+    padding: 1rem;
+    color: rgb(13, 53, 255);
+    font-size: 1.3rem;
+}
+
+.button-apple{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    color: white;
+    padding: 0.6rem 2.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    gap: 0.5rem;
+}
+
+.fa-file-code, .fa-compass-drafting, .fa-desktop, .fa-volume-low  {
+    color: rgb(13, 53, 255);
+    font-size: 3.5rem;
+}
+
+
+/*Media-Query*/
+
+/*Tablet*/
+
+@media (min-width: 810px) {
+
+
+}
+
+/*Desktop*/
+
+@media (min-width: 1210px) {
+
+.navlist{
+    display: flex;
+}
+
+ul,
+ol,
+menu {
+
+    font-style: none;
+
+}
+
+
+}
